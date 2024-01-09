@@ -60,9 +60,30 @@ table {
 }
 
 #card {
-    width: 20rem;
-    height: 30rem;
+    width: 18rem;
+    height: 28rem;
     background-color: var(--White);
     margin: 10rem auto;
     border-radius: 1rem;
+    padding: 1.7rem;
+}
+#upper-card {
+    height: 13rem;
+    width: 17rem;
+    background-color: black;
+    margin: auto;
+    border-radius: 1rem;
+    background-image: url(/assets/images/illustration-article.svg);
+    background-size:cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+#button-learn {
+    padding: 0.5rem;
+    background-color: var(--Yellow);
+    width: 4rem;
+    margin: 1.6rem 0.6rem;
+    border-radius: 0.4rem;
+    font-family: "Figtree";
+    font-size: 0.85rem;
 }
