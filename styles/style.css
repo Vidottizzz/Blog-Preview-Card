@@ -26,7 +26,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+    margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -36,12 +36,13 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
     font-size: 16px;
     background-color: var(--Yellow);
+    font-family: "Figtree";
 }
 ol, ul {
 	list-style: none;
@@ -61,15 +62,17 @@ table {
 
 #card {
     width: 18rem;
-    height: 28rem;
+    height: 29rem;
     background-color: var(--White);
     margin: 10rem auto;
     border-radius: 1rem;
     padding: 1.7rem;
+    box-shadow: 4rem;
 }
+
 #upper-card {
-    height: 13rem;
-    width: 17rem;
+    height: 13em;
+    width: 17.8rem;
     background-color: black;
     margin: auto;
     border-radius: 1rem;
@@ -82,8 +85,42 @@ table {
     padding: 0.5rem;
     background-color: var(--Yellow);
     width: 4rem;
-    margin: 1.6rem 0.6rem;
+    margin: 1.6rem 0rem 1rem 0rem;
     border-radius: 0.4rem;
     font-family: "Figtree";
     font-size: 0.85rem;
+    text-align: center;
+}
+#button-learn:hover {
+    cursor: pointer;
+}
+#date {
+    font-size: 0.8rem;
+}
+#foundations {
+    margin-top: 1.35rem;
+    font-size: 1.3rem;
+}
+main p {
+    margin-top: 1rem;
+    font-family:sans-serif, Times, serif;
+    font-size: 0.85rem;
+    line-height: 1.3rem;
+    font-weight: lighter;
+    word-spacing: 0.01rem;
+    letter-spacing: 0.04rem;
+}
+#image-block {
+    display: flex;
+
+}
+footer img {
+     margin-top: 1rem;
+     width: 2.2rem;
+     text-align: center;
+}
+footer p {
+    margin-top: 1.7rem;
+    margin-left: 0.8rem;
+    font-size: 0.95rem;
 }
